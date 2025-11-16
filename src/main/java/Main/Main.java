@@ -17,7 +17,11 @@ public class Main {
 
         AppLogger.logInfo("=======================================");
         AppLogger.logInfo("Запуск програми 'PassengerTrain'");
+
+        //тестове скидання на пошту))))))))))
         AppLogger.logCritical("ТЕСТ EMAIL", new RuntimeException("Тестова RuntimeException"));
+
+
         PassengerTrain train = new PassengerTrain("Галичина");
 
         Menu menu = new Menu();
